@@ -104,7 +104,31 @@ Create a function to log the movie information like this: `"Puff the Magic Drago
 
 
 
+## End of Semester Exam
 
+#### WOMEN INSTITUTE OF TECHNOLOGY AND INNOVATION, UGANDA
+
+#### CDS120 INTERMEDIATE WEB DESIGN AND DEVELOPMENT END OF SEMESTER EXAM 26th April 2024, 
+#### Duration: 3 Hours
+## SECTION A (20mks)
+1. Create an object to store the following information about your favorite movie: title (a string), duration (a number), and star (an object of name, country, and age strings). Create a function to log the movie information like so: "Puff the Magic Dragon lasts for 30 minutes. Star: Puff is 45 years old and born in Uganda." (3mks)
+2. Write a program to compute the sum of the two given integers. If the two values are the same, then return triple their sum. Ensure to have two logs one with two similar numbers and the other with different numbers. (3mks)
+3. Write a JavaScript function that accepts a number as a parameter and checks whether it is prime or not using recursion. Note: A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself. (3mks) 
+4. Write a JavaScript function that reverses a number. Eg 32243=34223 (2mks)
+5. Write a JavaScript function that returns a string with letters in alphabetical order. Example string: 'webmaster', Expected Output: 'abeemrstw'. (2mks)
+6. Write a javascript function to square numbers from 1 to 6. Display the results as an unordered list with such a statement for all 6 numbers. ‘ The square of 1 is 1’. (2mks)
+7. Write a JS expression to add the following property and value to the person object: country: Uganda. const person = {name: “Jane”, age: 24 }. (1mk)
+8. Write a JavaScript program to change the text color to blue on mouseover. (1mk)
+9. Create two HTML elements and add onClick events to each to alert their values. (1mk)
+10. Write a javascript function that takes in a temperature value in Fahrenheit and returns its equivalent in Celsius. Hint To convert temperatures in degrees Fahrenheit to Celsius, subtract 32 and multiply by .5556 (or 5/9). (2mks)
+
+## SECTION B (40mks)
+11. Write a program to print Fibonacci Numbers to 100. Hint Fibonacci Numbers refer to a series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers. The simplest is the series 1, 1, 2, 3, 5, 8, etc. (4mks)
+12. Write a JavaScript function that checks whether a passed string is a palindrome or not. A palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run. (4mks)
+13. Write a JavaScript function that takes an array of numbers and finds the second lowest and second greatest numbers, respectively. Sample array [1,2,3,4,5]. Expected Output: [2,4] (4mks)
+14. Write a JavaScript function that accepts a string as a parameter and finds the longest word within the string.  Example string: 'Web Development Tutorial', Expected Output: 'Development'. (4mks)
+15. Create a CRUD Grocery list project, it should add, edit, view, and delete groceries. (10mks)
+16. Create a bucket list project, it should add, edit, view, delete, and mark items as done. NB: The done items should be in a separate list on the page. (14mks)
 
 
 

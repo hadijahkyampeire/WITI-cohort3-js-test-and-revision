@@ -1,0 +1,24 @@
+<!-- Write a JavaScript program to change the text color to blue on mouseover. (1mk) --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="my-text" onmouseover="changeColorOnHover()" onmouseout="resetColor()" style="cursor: pointer;">My color will change when you hover over me</p>
+  <script>
+    function changeColorOnHover() {
+      const element = document.getElementById("my-text");
+      element.style.color = 'blue';
+    }
+
+    function resetColor() {
+      const element = document.getElementById("my-text");
+      element.style.color = 'black';
+    }
+  </script>
+</body>
+</html>

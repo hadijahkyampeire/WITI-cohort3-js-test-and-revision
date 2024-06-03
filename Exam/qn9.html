@@ -1,0 +1,27 @@
+<!--Create two HTML elements and add onClick events to each to alert their values. (1mk)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3>Alert values when the submit button is clicked</h3>
+  <input type="text" name="firstName" value="" placeholder="Enter your first name" id="fname">
+  <input type="text" name="lastName" value="" placeholder="Enter your last name" id="lname">
+  <button onclick="alertValues()">Submit</button>
+  <script>
+    function alertValues() {
+      const valueOne = document.getElementById('fname').value;
+      const valueTwo = document.getElementById('lname').value;
+      if (!valueOne.trim() && !valueTwo.trim()) {
+        alert('Please enter some values')
+      } else {
+        alert(`First name: ${valueOne} and Last name: ${valueTwo}`);
+      }
+    }
+  </script>
+</body>
+</html>
